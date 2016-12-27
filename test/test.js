@@ -17,5 +17,17 @@ describe("SAMPLE unit test",function(){
     
   });
 
+    it("string sucess",function(){
+       var iIndex="abc";
+       iIndex.should.equal("abc");
+    
+  });
+
+  it("verify date",function(){
+       var date=new Date();
+       date.should.equal(date);
+    
+  });
+
 
 });
